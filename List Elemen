@@ -1,4 +1,4 @@
-ORDERED LIST
+Contoh syntaks ORDERED LIST
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,3 +26,25 @@ dan goreng hingga matang.</li>
 </ol>
 </body>
 </html>
+
+Contoh syntaks Nested List
+<!DOCTYPE html>
+2 <html>
+3 <head>
+4 <meta charset="UTF-8">
+5 <title>Belajar Nested Ordered List</title>
+6 </head>
+7 <body>
+8 <ol>
+9 <li>Pilihan pertama</li>
+10 <li>Pilihan kedua <!-- tag penutup </li> tidak diletakkan disini -->
+11 <ol type="a">
+12 <li>sub pertama pilihan kedua</li>
+13 <li>sub kedua pilihan kedua</li>
+14 <li>sub ketiga pilihan kedua</li>
+15 </ol>
+16 </li> <!-- ini adalah tag penutup </li> -->
+17 <li>Pilihan ketiga</li>
+18 </ol>
+19 </body>
+20 </html>
